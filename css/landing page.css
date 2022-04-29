@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+.header {
+    background-color: bisque;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    
+}
+
+.icon {
+    flex: 50%;
+    justify-content: space-between;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background-color: hsl(44, 100%, 88%);
+    margin: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cat1 {
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(77, 33%, 4%);
+    border-radius: 25px;
+}
+.button-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1 {
+    padding: 10px;
+}
+.staff {
+    background-color: hsl(24, 64%, 53%);
+    margin: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff1 {
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 25px; 
+    justify-content: center;
+    align-items: center;   
+    display: flex;
+    flex-direction: column;
+}
+
+.staff-center {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cat-staff {
+    width: 200px;
+    border: 5px solid hsl(77, 33%, 4%);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.member {
+    display: flex;
+}
+ .h3-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+ .quote-section {
+    background-color: bisque;
+    display: flex;
+    padding: 120px;
+    flex-direction: column;
+    font-size: large;
+ }
+
+ .quote-section p {
+    text-align: end;
+    font-style: normal;
+    font-weight: 800;
+    color: sienna;
+  }
+
+.webpage-section {
+    background-color: azure;
+    padding: 50px;
+    
+
+}
+
+
+
+.webpage {
+    display: flex;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+
+}
+.github-icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.email-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 50px;
+    
+}
+
+.email-head {
+    font-size: xx-large;
+}
+
+.email-section2 {
+    border-radius: 20px;
+    border: 10px solid white;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
